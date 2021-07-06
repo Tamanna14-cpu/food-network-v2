@@ -93,7 +93,7 @@ h2{
     width: 300px;
     height: 200px;
     margin-top: 15px;
-    margin-left: 13px;
+    padding-left: 25px;
 }
 .recipie-card h5{
     line-height: 200%;
