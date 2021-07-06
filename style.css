@@ -15,7 +15,9 @@ h2{
 .orange{
     color: orange;
 }
+ 
 
+/* header */
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
@@ -44,16 +46,18 @@ h2{
 
 .link-btn{
     text-decoration: none;
-    background-image: linear-gradient(rgb(238, 177, 63), tomato);
+    background-image: linear-gradient( to right, rgb(233, 175, 69), tomato);
     color: white;
     font-weight: 700;
     padding : 20px 50px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 10px 5px 30px rgb(241, 178, 59);
 }
 
+
+/* about me */
 .about{
-    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-image: url(images/shapes/frame1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,6 +69,8 @@ h2{
     line-height: 200%;
 }
 
+
+/* recipes */
 .my-recipe{
     text-align: center;
 }
@@ -98,6 +104,57 @@ h2{
     font-size: 27px;
 }
 
+
+/* visit us */
+.input{
+    margin-top: 20px;
+    padding: 20px;
+    width: 70%;
+    height: 20px;
+    border: 3px solid black;
+}
+.input-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 70%;
+    height: 100px;
+    border: 3px solid black;
+}
+.submit-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #555555;
+    color: white;
+  }
+.visit-us img{
+    margin-top: 65px;
+}
+.visit-us h1{
+    font-size: 55px;
+    font-weight: 80;
+    padding-left: 5%;
+}
+.call-us{
+    font-size: 80px;
+}
+.visit-us h3{
+    font-size: 50px;
+    color: rgb(95, 92, 92);
+    font-weight: bold;
+}
+.hour{
+    color: black;
+}
+
+
+/* reached-portion */
 .reach-card{
     display: flex;
     box-shadow: 15px 15px 40px rgb(230, 229, 229);
@@ -114,13 +171,22 @@ h2{
     color: rgb(39, 32, 32);
 }
 
+
+/* footer */
 footer{
     background-color: black;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 120px;
+    padding-bottom: 25px;
+}
+footer h2{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 footer small{
     color: whitesmoke;
-    margin-top: 60px;
+}
+footer h6{
+    color: rgb(197, 166, 166);
+    letter-spacing: 5px;
 }
